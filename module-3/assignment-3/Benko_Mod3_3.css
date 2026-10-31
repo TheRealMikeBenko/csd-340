@@ -1,0 +1,74 @@
+/*
+    Michael Benko
+    2026-10-30
+    CSD340-302E Web Development with HTML and CSS (2273-DD)
+    Module 3.3 Assignment
+*/
+
+/* General page styles */
+html, body {
+    font-size: 16px;
+}
+
+/* Headings */
+h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 500;
+    padding: 10px;
+}
+
+/* Layout */
+#left-div {
+    width: 45%;
+    float: left;
+    border: 1px solid red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#right-div {
+    width: 45%;
+    float: right;
+    border: 1px dashed red;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#last-div {
+    width: 100%;
+    text-align: right;
+    margin-top: 60%;
+    margin-bottom: 20px;
+}
+
+/* Lists */
+ol {
+    font-weight: 300;
+}
+
+#left-div ol,
+#right-div ol {
+    padding: 10px;
+    list-style-position: inside;
+}
+
+#right-div ol {
+    list-style-type: upper-roman;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
