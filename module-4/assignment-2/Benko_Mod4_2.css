@@ -1,0 +1,69 @@
+/*
+    Michael Benko
+    2026-11-6
+    CSD340-302E Web Development with HTML and CSS (2273-DD)
+    Module 4.2 Assignment
+*/
+
+/* General page styles */
+html, body {
+    font-size: 16px;
+}
+
+/* Layout */
+#image-gallery {
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#image-gallery div {
+    border: 1px solid rgba(79, 54, 116, 0.8);
+    padding: 10px;
+}
+
+#last-div {
+    text-align: right;
+    margin-top: 20px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: rgba(79, 54, 116, 1);
+}
+
+h3 {
+    text-align: center;
+    color: rgba(79, 54, 116, 0.8);
+}
+
+/* Images */
+img {
+    width: 200px;
+    height: auto;
+    max-width: 100%;
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(79, 54, 116, 0.6);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
